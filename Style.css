@@ -1,0 +1,209 @@
+*{
+    margin-left: 0px;
+}
+.navbar {
+    background-color: #152EAE;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-between;
+
+}
+.homebody{
+    background: linear-gradient(-45deg, #6B9ACD, #3D5875);
+    height: 100vh;
+}
+li>a {
+    transition: 0.5s;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #155FAD;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+li>a:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: #155FAD;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+.logo {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #1C8CE8;
+}
+
+.logo>img {
+    width: 50px;
+    height: 50px;
+}
+
+.adm {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #152EAE;
+    border-left: black 1px solid;
+}
+
+.sobre {
+    background: linear-gradient(to right, #6B9ACD, #3D5875)
+}
+
+.sobreDiv {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 1000px;
+    box-shadow: 5px 5px 15px 5px #303031;
+    margin-top: 50px;
+    padding: 5px;
+    
+}
+
+.sobreDiv > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sobreDiv>p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    text-align: start;
+    width: 850px;
+    margin: auto;
+}
+.divimg > img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    border-radius: 3px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:black;
+    bottom: 0;
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+    position: fixed;
+    width: 85%;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.divCadastro{
+    color: white;
+    transition: 0.5s;
+    position: relative;
+    top: 250px;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+    background-color: #152EAE;
+}
+.divCadastro:hover{
+    box-shadow: 7px 7px 5px 5px black;
+    background-color: white;
+    color: #152EAE;
+    width: 350px;
+    height: 300px;
+    transition: 0.3s;
+    padding: 15px;
+}
+.cadastro{
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+    margin-top: 5px;
+}
+.cadastroBody{
+    background: linear-gradient(-45deg, #6B9ACD, #3D5875);
+    height: 100vh;
+}
+#botaoCadastrar{
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #155FAD;
+    border-radius: 5px;
+    color: white;
+    border: white solid 1px;
+    font-size: 15px;
+}
+.AlbumDeFotos{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    background-color: #152EAE;
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px 3px black;
+    transition: 0.5s;
+    justify-content: center;
+}
+.AlbumDeFotos:hover{
+    transition: 0.3;
+    width: 1400px;
+    background-color: white;
+    border: solid 2px #152EAE;
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 10px 3px black;
+}
+.AlbumDeFotosBody{
+    background: linear-gradient(-45deg, #6B9ACD, #3D5875);
+    height: 100vh;
+    
+}
+.ImgQuadradaAlbumDeFotos{
+    height: 150px;
+    width: 150px;
+    transition: 0.5s;
+}
+#csslogo{
+    width: 200px;
+}
+.ImgPaisagemAlbumDeFotos{
+    height: 100px;
+    width: 200px;
+    transition: 0.5s;
+}
+.ImgQuadradaAlbumDeFotos:hover{
+    height: 200px;
+    width: 200px;
+    transition: 0.3s;
+}
+#csslogo:hover{
+    transition: 0.3s;
+    width: 300px;
+    height: 200px;
+}
+.ImgPaisagemAlbumDeFotos:hover{
+    transition:0.3s;
+    height: 200px;
+    width: 400px;
+}
